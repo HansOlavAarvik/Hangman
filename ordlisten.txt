@@ -9,9 +9,11 @@ omikronsmittet
 Log4j
 KickerAce
 stearinlysfabrikken
-Skålevik/E24
+Skålevik
+E24
 Semeru
-GRANOLLERS/OSLO
+GRANOLLERS
+OSLO
 fellesmålt
 Ormøyviga
 omikron-uro
