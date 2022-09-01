@@ -6,7 +6,6 @@ strømordningen
 klasser
 Hoej
 omikronsmittet
-Log4j
 KickerAce
 stearinlysfabrikken
 Skålevik
