@@ -37,7 +37,7 @@ class Spelord:
             feil = "ja"
             while feil == "ja":
                 bruker_input = input("Gjett ein bokstav\n")
-                if not re.match("[a-å,ø,æ,è]", bruker_input):
+                if not re.match("[a-å,ø,æ,è,\-]", bruker_input):
                     print ("Berre a-å gyldig\n")
 
                 elif len(bruker_input) > 1:
@@ -53,7 +53,7 @@ class Spelord:
 
             # her blir bokstaven analysert, og samanlikna med spelordet
             bokstaver = []
-            bokstaver = [pos for pos, char in enumerate(self._ordet) if char\
+            bokstaver = [pos for pos, char in enumerate(self._ordet.lower()) if char\
              == bruker_input]
              # if not bokstaver, dvs det er ingen bokstavar til felles
             if not bokstaver:
